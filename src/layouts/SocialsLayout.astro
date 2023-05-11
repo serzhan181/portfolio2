@@ -1,0 +1,28 @@
+---
+import Head from "../components/Head.astro";
+
+export interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <Head title={title} description={description} />
+  </head>
+  <body class="py-10">
+    <video
+      autoplay
+      loop
+      muted
+      class="top-0 w-full h-full object-cover brightness-[100%] -z-10 fixed bottom-0 left-0 right-0"
+    >
+      <source src="/videos/shapes.mp4" type="video/mp4" />
+    </video>
+    <slot />
+  </body>
+</html>
