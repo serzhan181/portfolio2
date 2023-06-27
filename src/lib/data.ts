@@ -88,6 +88,13 @@ const projects: IProject[] = [
     repo: "https://github.com/serzhan181/reclone/tree/delta", // if no repo, the button will not show up
   },
   {
+    img: "codu.png",
+    title: "Contributed: Codu",
+    info: "Place for developers",
+    info2: "Technologies: t3 stack",
+    url: "https://www.codu.co/",
+  },
+  {
     img: "project-1.png",
     title: "Sound Enjoy",
     info: "Music player.",
