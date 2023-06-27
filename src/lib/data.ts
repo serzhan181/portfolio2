@@ -93,6 +93,7 @@ const projects: IProject[] = [
     info: "Place for developers",
     info2: "Technologies: t3 stack",
     url: "https://www.codu.co/",
+    repo: "https://github.com/codu-code/codu",
   },
   {
     img: "project-1.png",
