@@ -96,6 +96,14 @@ const projects: IProject[] = [
     repo: "https://github.com/codu-code/codu",
   },
   {
+    img: "coder-racer.png",
+    title: "Contributed: Coder Racer",
+    info: "Start racing",
+    info2: "Technologies: next.js",
+    url: "https://code-racer-eight.vercel.app/",
+    repo: "https://github.com/webdevcody/code-racer/",
+  },
+  {
     img: "project-1.png",
     title: "Sound Enjoy",
     info: "Music player.",
