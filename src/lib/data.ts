@@ -78,6 +78,16 @@ const projects: IProject[] = [
     url: "https://judge-devs.vercel.app/",
     repo: "https://github.com/serzhan181/judge-devs",
   },
+
+  {
+    img: "bearit.png",
+    title: "Clone of reddit",
+    info: "Clone of reddit",
+    info2:
+      "Technologies: Next13, app dir, caching, infinite scrolling, shadcn/ui",
+    url: "https://bearit.vercel.app/",
+    repo: "https://github.com/serzhan181/bearit",
+  },
   {
     img: "project-4.png",
     title: "Reclone",
